@@ -1,0 +1,33 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+/* Header Title */
+.headtitle {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.headtitle div {
+    text-align: center;
+}
+
+.headtitle .headtitle-cont{
+    margin-bottom: 5px;
+}
