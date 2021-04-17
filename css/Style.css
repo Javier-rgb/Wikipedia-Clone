@@ -19,6 +19,7 @@ p {
 
 body {
     margin-top: 75px;
+    width: 100vw;
 }
 
 body section {
@@ -42,14 +43,35 @@ body section {
 
 /* Languages section & WikiLogo */
 
-.languages {
-    display: flex;
-    justify-content: center;
+.languages{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Wikipedia-logo-transparent.png/526px-Wikipedia-logo-transparent.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
 }
+
+.languages {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.languages .leftLang li {
+    justify-content: flex-end;
+}
+
+.languages .rightLang li {
+    justify-content: flex-start;
+}
+
 .languages li{
     margin-bottom: 15px;
     list-style: none;
+    display: flex;
 }
+
 
 .languages li span{
     display: block;
@@ -70,12 +92,38 @@ body section {
     height: 45px;
     background-color: white;
     border: none;
+    justify-self: center;
 }
 
 .languages button:hover{
     background-color: #eaecf0;
+    cursor: pointer;
 }
 
 .languages button:hover a {
     text-decoration: underline;
+}
+
+.languages .leftButton1 {
+    margin-right: 60px;
+}
+
+.languages .leftButton2 {
+    margin-right: 100px;
+}
+
+.languages .leftButton3 {
+    margin-right: 120px;
+}
+
+.languages .rightButton1 {
+    margin-left: 60px;
+}
+
+.languages .rightButton2 {
+    margin-left: 100px;
+}
+
+.languages .rightButton3 {
+    margin-left: 120px;
 }
