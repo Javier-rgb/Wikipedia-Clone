@@ -16,10 +16,17 @@ h1 {
 p {
     font-size: 1.5rem;
 }
+
+body {
+    margin-top: 75px;
+}
+
+body section {
+    margin-bottom: 15px;
+}
+
 /* Header Title */
 .headtitle {
-    position: relative;
-    top: 50px;
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -31,4 +38,44 @@ p {
 
 .headtitle .headtitle-cont{
     margin-bottom: 5px;
+}
+
+/* Languages section & WikiLogo */
+
+.languages {
+    display: flex;
+    justify-content: center;
+}
+.languages li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.languages li span{
+    display: block;
+    font-size: 1.3rem;
+    color: #54595d;
+    text-decoration: none;
+}
+
+.languages li a{
+    color: #3366cc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.languages button {
+    width: 156px;
+    height: 45px;
+    background-color: white;
+    border: none;
+}
+
+.languages button:hover{
+    background-color: #eaecf0;
+}
+
+.languages button:hover a {
+    text-decoration: underline;
 }
