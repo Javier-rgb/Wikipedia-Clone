@@ -44,10 +44,10 @@ body section {
 /* Languages section & WikiLogo */
 
 .languages{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Wikipedia-logo-transparent.png/526px-Wikipedia-logo-transparent.png');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Wikipedia-logo-transparent.png/263px-Wikipedia-logo-transparent.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 25%;
+    background-size: 200px 200px;
 }
 
 .languages {
