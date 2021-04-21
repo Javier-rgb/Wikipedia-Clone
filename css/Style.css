@@ -147,11 +147,12 @@ body .search-bar {
     height: 45px;
 }
 
-body .search-bar div {
+body .search-bar .search-bar-box {
     border: 1px solid #a2a9b1;
     width: 400px;
+    display: flex;
 }
-body .search-bar input {
+body .search-bar .search-input input{
     height: 100%;
     border: none;
     width: 280px;
@@ -159,23 +160,34 @@ body .search-bar input {
     outline: none;
 }
 
-body .search-bar select {
+body .search-bar .search-select select{
     height: 100%;
     border: none;
     width: 50px;
 }
 
-body .search-bar button {
-    width: 58px;
+body .search-bar .search-button button{
+    width: 60px;
     height: 100%;
     background-color: #3366cc;
     border: none;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ic_search_48px.svg/640px-Ic_search_48px.svg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+body .search-bar .search-button button:hover {
+    cursor: pointer;
+}
+
+body .search-bar .search-button button .search-icon {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-position: 0 -697px;
+    width: 22px;
+    height: 22px; 
+}
+
+/* Choose Language section */
 body .search-bar button:hover{
     background-color: #447ff5;
 }
