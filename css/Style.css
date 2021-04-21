@@ -187,17 +187,44 @@ body .chooselang {
 }
 
 body .chooselang button {
+    display: flex;
     width: 270px;
     height: 35px;
     background-color: white;
-    color: blue;
+    color: #3366cc;
+}
+
+body .chooselang button:hover{
+    cursor: pointer;
 }
 
 body .chooselang .transicon {
-    background-image: url('https://pics.freeicons.io/uploads/icons/png/11845077261571183083-512.png');
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
     background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-size: 30px 30px;
+    background-position: 0 -617px;
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+body .chooselang .dropdown {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -527px;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+body .chooselang p{
+    width: 180px;
+    margin-top: 7px;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 
