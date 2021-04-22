@@ -339,6 +339,7 @@ body .chooselang p{
     background-color: white;
     align-items: center;
     display: flex;
+    padding: 5px;
 }
 
 .wiki-inf .wikilinks .linktext{
@@ -347,6 +348,7 @@ body .chooselang p{
     width: 70%;
     color: #54595d;
     font-size: 1.2rem;
+    margin-left: auto;
 }
 
 .wiki-inf .wikilinks .linktext h5{
@@ -355,10 +357,88 @@ body .chooselang p{
     font-weight: 400;
 }
 
-.wikilinks .wikibutton .icontest{
+.wikilinks .wikibutton .common{
     background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 47px;
     height: 47px;
+}
+
+.wikilinks .wikibutton .wikiviajes{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -446px;
+    width: 36px;
+    height: 36px;
+}
+.wikilinks .wikibutton .wikcionario{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -482px;
+    width: 37px;
+    height: 37px;
+}
+.wikilinks .wikibutton .wikilibros{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -126px;
+    width: 37px;
+    height: 37px;
+}
+.wikilinks .wikibutton .wikinoticias{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 47px;
+    height: 26px;
+}
+.wikilinks .wikibutton .wikidata{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -163px;
+    width: 49px;
+    height: 49px;
+}
+.wikilinks .wikibutton .wikiversidad{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -409px;
+    width: 43px;
+    height: 37px;
+}
+.wikilinks .wikibutton .wikiquote{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -286px;
+    width: 42px;
+    height: 42px;
+}
+.wikilinks .wikibutton .mediawiki{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -47px;
+    width: 42px;
+    height: 42px;
+}
+.wikilinks .wikibutton .wikisource{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -328px;
+    width: 39px;
+    height: 39px;
+}
+.wikilinks .wikibutton .wikispecies{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -367px;
+    width: 42px;
+    height: 42px;
+}
+.wikilinks .wikibutton .meta-wiki{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -89px;
+    width: 37px;
+    height: 37px;
 }
