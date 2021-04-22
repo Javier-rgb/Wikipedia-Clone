@@ -442,3 +442,23 @@ body .chooselang p{
     width: 37px;
     height: 37px;
 }
+
+/* WIKI END*/
+
+.wikiend {
+    font-size: 1.4rem;
+    display: flex;
+    margin-left: 50px;
+    color: #54595d;
+    font-weight: 400;
+}
+
+.wikiend ul{
+    display: flex;
+    margin-left: 25px;
+}
+
+.wikiend ul li a {
+    color: #3366cc;
+    margin-right: 25px;
+}
