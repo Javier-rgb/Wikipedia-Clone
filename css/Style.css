@@ -239,6 +239,9 @@ body .chooselang p{
     font-weight: bold;
 }
 
+/* Wiki inf */
+
+/* left */
 
 .wiki-inf {
     display: flex;
@@ -259,7 +262,9 @@ body .chooselang p{
     width: 230px;
 }
 
-.wiki-inf-left {
+/* LEFT */
+
+.wiki-inf .wiki-inf-left {
     width: 35%;
     padding-left: 20px;
 }
@@ -312,4 +317,23 @@ body .chooselang p{
     width: 110px;
     height: 38px;
     margin-right: 10px;
+}
+
+/* Right */
+
+.wiki-inf .wikilinks {
+    width: 60%;
+    padding-left: 20px;
+    display: block;
+    box-sizing: content-box;
+}
+
+.wiki-inf .wikilinks .wikibutton {
+    width: 33%;
+    float: left;
+}
+
+.wiki-inf .wikilinks button {
+    width: 100%;
+    height: 95px;
 }
