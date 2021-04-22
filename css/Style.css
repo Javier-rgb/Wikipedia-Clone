@@ -451,6 +451,7 @@ body .chooselang p{
     margin-left: 50px;
     color: #54595d;
     font-weight: 400;
+    justify-content: center;
 }
 
 .wikiend ul{
