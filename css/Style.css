@@ -336,4 +336,29 @@ body .chooselang p{
 .wiki-inf .wikilinks button {
     width: 100%;
     height: 95px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+
+.wiki-inf .wikilinks .linktext{
+    text-align: left;
+    position: relative;
+    width: 70%;
+    color: #54595d;
+    font-size: 1.2rem;
+}
+
+.wiki-inf .wikilinks .linktext h5{
+    color: #3366cc;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.wikilinks .wikibutton .icontest{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 47px;
+    height: 47px;
 }
